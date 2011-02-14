@@ -31,6 +31,7 @@
             this.cmbPort = new System.Windows.Forms.ComboBox();
             this.btRefreshPortsList = new System.Windows.Forms.Button();
             this.zg = new ZedGraph.ZedGraphControl();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmbPort
@@ -65,11 +66,22 @@
             this.zg.Size = new System.Drawing.Size(510, 246);
             this.zg.TabIndex = 2;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(218, 84);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(38, 24);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(756, 412);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.zg);
             this.Controls.Add(this.btRefreshPortsList);
             this.Controls.Add(this.cmbPort);
@@ -85,6 +97,7 @@
         private System.Windows.Forms.ComboBox cmbPort;
         private System.Windows.Forms.Button btRefreshPortsList;
         private ZedGraph.ZedGraphControl zg;
+        private System.Windows.Forms.Button button1;
     }
 }
 

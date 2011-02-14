@@ -11,6 +11,9 @@ using ZedGraph;
 
 namespace TuneRecognizerDebug {
     public partial class frmMain : Form {
+
+        private ZedRepeater zgRepeater;
+
         public frmMain() {
             InitializeComponent();
         }
@@ -27,6 +30,12 @@ namespace TuneRecognizerDebug {
             zgPane.XAxis.Title.Text = "Time";
             zgPane.YAxis.Title.Text = "Frequency (Hz)";
             //zgPane.Y2Axis.Title.Text = "Parameter B";
+
+            zgRepeater = new ZedRepeater(zg, "frequency");
+            zgRepeater.MaxPoints = 22;
+            zgPane.YAxis.Scale.Min = 0;
+            zgPane.YAxis.Scale.Max = 6;
+            zgPane.AxisChange();
         }
 
         private void btRefreshPortsList_Click(object sender, EventArgs e) {
@@ -53,6 +62,13 @@ namespace TuneRecognizerDebug {
             if (cmbPort.Items.Contains(oldPort)) cmbPort.Text = oldPort;
             else if (cmbPort.Items.Count > 0) cmbPort.Text = (string)cmbPort.Items[0];
             else cmbPort.Text = "";
+        }
+
+        private void button1_Click(object sender, EventArgs e) {
+            int i;
+            for (i = 0; i<6; i++) {
+                zgRepeater.addValue(i);
+            }
         }
 
 
