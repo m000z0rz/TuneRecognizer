@@ -33,6 +33,9 @@ namespace TuneRecognizerDebug {
 
             zgRepeater = new ZedRepeater(zg, "frequency");
             zgRepeater.MaxPoints = 22;
+            zgRepeater.FractionSpace = .1;
+            zgRepeater.WrapSpace = true;
+
             zgPane.YAxis.Scale.Min = 0;
             zgPane.YAxis.Scale.Max = 6;
             zgPane.AxisChange();

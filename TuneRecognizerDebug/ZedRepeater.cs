@@ -45,17 +45,17 @@ namespace TuneRecognizerDebug {
 
         public void InitializeZedGraph() {
             _zg.GraphPane.XAxis.Scale.MinAuto = false;
-            _zg.GraphPane.XAxis.Scale.Min = 0;
+            _zg.GraphPane.XAxis.Scale.Min = 1;
             _zg.GraphPane.XAxis.Scale.MaxAuto = false;
             if (MaxPoints==0) _zg.GraphPane.XAxis.Scale.Max = 1;
             else _zg.GraphPane.XAxis.Scale.Max = MaxPoints;
 
             LineItem seg1 = _zg.GraphPane.AddCurve(CurveName + "_1",
-                new PointPairList(), System.Drawing.Color.Black, SymbolType.None);
+                new PointPairList(), System.Drawing.Color.Black, SymbolType.Circle);
             seg1.Symbol.Fill = new Fill(System.Drawing.Color.White);
 
             LineItem seg2 = _zg.GraphPane.AddCurve(CurveName + "_2",
-                new PointPairList(), System.Drawing.Color.Black, SymbolType.None);
+                new PointPairList(), System.Drawing.Color.Black, SymbolType.Circle);
             seg2.Symbol.Fill = new Fill(System.Drawing.Color.White);
         }
 

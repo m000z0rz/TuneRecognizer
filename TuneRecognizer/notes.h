@@ -1,0 +1,161 @@
+#define nlSixteenth 1
+#define nlEighth 2
+#define nlQuarter 4
+#define nlDottedQuarter 6
+#define nlHalf 8
+#define nlDottedHalf 12
+#define nlWhole 16
+
+#define nEnd 255
+
+#define nC0   0
+#define nC0s  1 
+  #define nD0f  1
+#define nD0   2
+#define nD0s  3 
+  #define nE0f  3
+#define nE0   4  
+#define nF0   5  
+#define nF0s  6 
+  #define nG0f  6
+#define nG0   7
+#define nG0s  8  
+  #define nA0f  8
+#define nA0   9  
+#define nA0s 10  
+  #define nB0f 10
+#define nB0  11
+
+#define nC1  12
+#define nC1s 13  
+  #define nD1f 13
+#define nD1  14
+#define nD1s 15  
+  #define nE1f 15
+#define nE1  16
+#define nF1  17  
+#define nF1s 18  
+  #define nG1f 18
+#define nG1  19
+#define nG1s 20  
+  #define nA1f 20
+#define nA1  21
+#define nA1s 22  
+  #define nB1f 22
+#define nB1  23
+
+#define nC2  24
+#define nC2s 25  
+  #define nD2f 25
+#define nD2  26
+#define nD2s 27  
+  #define nE2f 27
+#define nE2  28
+#define nF2  29  
+#define nF2s 30  
+  #define nG2f 30
+#define nG2  31
+#define nG2s 32  
+  #define nA2f 32
+#define nA2  33
+#define nA2s 34  
+  #define nB2f 34
+#define nB2  35
+
+#define nC3  36
+#define nC3s 37  
+  #define nD3f 37
+#define nD3  38
+#define nD3s 39  
+  #define nE3f 39
+#define nE3  40
+#define nF3  41  
+#define nF3s 42  
+  #define nG3f 42
+#define nG3  43
+#define nG3s 44  
+  #define nA3f 44
+#define nA3  45
+#define nA3s 46  
+  #define nB3f 46
+#define nB3  47
+
+#define nC4  48
+#define nC4s 49  
+  #define nD4f 49
+#define nD4  50
+#define nD4s 51  
+  #define nE4f 51
+#define nE4  52
+#define nF4  53  
+#define nF4s 54  
+  #define nG4f 54
+#define nG4  55
+#define nG4s 56  
+  #define nA4f 56
+#define nA4  57
+#define nA4s 58  
+  #define nB4f 58
+#define nB4  59
+
+#define nC5  60
+#define nC5s 61  
+  #define nD5f 61
+#define nD5  62
+#define nD5s 63 
+  #define nE5f 63
+#define nE5  64
+#define nF5  65  
+#define nF5s 66  
+  #define nG5f 66
+#define nG5  67
+#define nG5s 68 
+  #define nA5f 68
+#define nA5  69
+#define nA5s 70  
+  #define nB5f 70
+#define nB5  71
+
+#define nC6  72
+#define nC6s 73  
+  #define nD6f 73
+#define nD6  74
+#define nD6s 75  
+  #define nE6f 75
+#define nE6  76
+#define nF6  77  
+#define nF6s 78  
+  #define nG6f 78
+#define nG6  79
+#define nG6s 80  
+  #define nA6f 80
+#define nA6  81
+#define nA6s 82  
+  #define nB6f 82
+#define nB6  83
+
+#define nC7  84
+#define nC7s 85  
+  #define nD7f 85
+#define nD7  86
+#define nD7s 87  
+  #define nE7f 87
+#define nE7  88
+#define nF7  89  
+#define nF7s 90  
+  #define nG7f 90
+#define nG7  91
+#define nG7s 92  
+  #define nA7f 92
+#define nA7  93
+#define nA7s 94  
+  #define nB7f 94
+#define nB7  95
+
+#define nC8  96
+#define nC8s 97  
+  #define nD8f 97
+#define nD8  98
+#define nD8s 99  
+  #define nE8f 99
+
